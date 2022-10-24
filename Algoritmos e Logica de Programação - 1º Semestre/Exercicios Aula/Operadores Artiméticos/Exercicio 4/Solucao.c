@@ -5,16 +5,16 @@
 void main(){
     setlocale(LC_ALL,"");
 
-    float valorProduto, quantidade, parcela;
+    float distancia, litros, consumo;
 
-    printf("Qual o valor do produto?\n");
-    scanf("%f", &valorProduto);
+    printf("Qual a distancia percorrida?\n");
+    scanf("%f", &distancia);
 
-    printf("Deseja pagar em quantas parcelas?\n");
-    scanf("%f", &quantidade);
+    printf("Quantos litros foram gastos?\n");
+    scanf("%f", &litros);
 
-    parcela = valorProduto/quantidade;
-    printf("O valor de cada parcela será de: R$%.2f\n", parcela);
+    consumo = distancia/litros;
+    printf("O consumo médio do veiculo foi de: %.2df km/l\n", consumo);
 
     system("pause");
 

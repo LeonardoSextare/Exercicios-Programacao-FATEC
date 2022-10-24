@@ -5,17 +5,18 @@
 void main(){
     setlocale(LC_ALL,"");
 
-    float valorProduto, quantidade, parcela;
+    float salarioMinimo, vendas;
+    char vendedor[100];
+    printf("Digite o nome do vendedor:\n");
+    gets(vendedor);
 
-    printf("Qual o valor do produto?\n");
-    scanf("%f", &valorProduto);
+    printf("Informe o Salario Minimo:\n");
+    scanf("%f", &salarioMinimo);
 
-    printf("Deseja pagar em quantas parcelas?\n");
-    scanf("%f", &quantidade);
+    printf("Informe quantas vendas foram efetuadas: \n");
+    scanf("%f", &vendas);
 
-    parcela = valorProduto/quantidade;
-    printf("O valor de cada parcela será de: R$%.2f\n", parcela);
-
+    printf("O Vendedor: %s irá receber no final do mês o salario de: R$%.2f\n", vendedor, salarioMinimo+(vendas*0.15));
     system("pause");
 
 }
