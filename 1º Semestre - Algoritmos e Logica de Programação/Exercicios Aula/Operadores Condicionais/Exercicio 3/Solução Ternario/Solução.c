@@ -19,6 +19,6 @@ void main()
     printf("O total a pagar a vista é: R$%f", valor*0.9)
     :escolha==2?
     printf("O total a pagar a prazo é: R$%f", valor)
-    :printf("Opçãoo Invalida");
+    :printf("Opção Invalida");
 
 }
