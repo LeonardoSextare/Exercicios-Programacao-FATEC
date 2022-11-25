@@ -14,11 +14,11 @@ void main()
 
     if (idade >= 18)
     {
-        printf("Você é maior de idade!");
+        printf("Vocï¿½ ï¿½ maior de idade!");
     }
     else
     {
-        printf("Você é menor de idade!");
+        printf("Vocï¿½ ï¿½ menor de idade!");
     }
 
     printf("\n\n");

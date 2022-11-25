@@ -9,7 +9,7 @@ void main()
     char escolha;
 
     printf("Informe seu estado civil:\ns - Solteiro\nc - Casado\nd - Divorciado\nv - Viuvo\n");
-    printf("Escolha uma opção(s, c, d, v): \n");
+    printf("Escolha uma opï¿½ï¿½o(s, c, d, v): \n");
     scanf("%c", &escolha);
 
     switch (escolha)
@@ -36,7 +36,7 @@ void main()
         break;
 
     default:
-        printf("\n Opção Invalida \n");
+        printf("\n Opï¿½ï¿½o Invalida \n");
 
     }
     printf("\n\n");
