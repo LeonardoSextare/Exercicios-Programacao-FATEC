@@ -4,15 +4,15 @@
 #include <string.h>
 
 int inicio = 0, fim = 2;
-    char animais[13][100] = {"Leao", "Cavalo", "Homem", "Macaco", "Morcego", "Baleia", "Avestruz", "Pinguim", "Pato", "Aguia", "Tartaruga", "Crocodilo", "Cobra"};
 
 void main()
 {
     setlocale(LC_ALL, "");
 
-    char resposta[19][4];
+    char animais[13][100] = {"Leao", "Cavalo", "Homem", "Macaco", "Morcego", "Baleia", "Avestruz", "Pinguim", "Pato", "Aguia", "Tartaruga", "Crocodilo", "Cobra"};
     char pergunta[19][100] = {
         "Mamiferos", "Ave", "Reptil", "Quadrupedes", "Bipedes", "Voadores", "Aquaticos", "Nao-Voadores", "Nadadores", "de Rapina", "Com Casco", "Carnivoros", " Sem Patas", "Carnivoros", "Herbivoros", "Onivoros", "Frutivoros", "Tropicais", "Polares"};
+    char resposta[19][4];
 
     printf("<<<<<<<<<<<>Perguntas e Respostas<>>>>>>>>>>>\n");
     printf("Responda as perguntas a seguir e descubra qual animal se encaixa de acordo com as respostas!\n");
